@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 790px;
+}
+h2 {
+    margin: 20px 0 0 10px;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.title {
+    text-align: center;
+    font-size: 12pt;
+}
+p {
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 12pt;
+}
+#wrap {
+    width: 790px;
+ 	margin: 0 auto;
+    padding: 0;
+}
+.poster {
+    position: fixed;
+    max-width: 215px;
+}
+.movie {
+    left: 203px;
+    top: 0;
+    margin-left: 213px;
+    width: 580px;
+    padding: 0 10px;
+    background: #E8E8E8;
+}
+p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.year {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+p.summary {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 2px;
+    line-height: 1.5em;
+    color: #000000;
+}
+p.fields {
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+p span {
+    color: #12548A;
+}
+
+p.year span {
+    color: #12548A;
+}
+ul {
+    margin: -2px 0 20px 0;
+    color: #12548A;
+}
+ul li {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="pt-br">
+<head>
+    <style type="text/css" media="all"></style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../styles/help.css" media="all">
+    <title>Ajuda Inserir Filmes e Séries</title>
+</head>
+<body>
+<div class="wrap">
+    <h1>Ajuda Inserir Filmes e Séries</h1>
+    <h2><a href="rules_for_combobox.html">Regras Para Combobox</a></h2>
+    <h2>Campos comuns a filmes e séries:</h2>
+    <h3 class="field">Pesquisar no IMDB:</h3>
+    <p>Nesse item clicando no botão SIM aparece um campo onde você pode inserir uma URL (ex:
+        https://www.imdb.com/title/tt2369396/?ref_=nv_sr_1) do IMDB (um site que talvez tenha a maior base de dados
+        sobre filmes, séries, programas de tv e muito mais) referente ao filme ou série e tentaremos preencher os campos
+        Título, Título Original, Ano, Categorias, Diretor ou Criador, Elenco e Poster.</p>
+    <h3 class="field">Título:</h3>
+    <p>Para inserir o título do filme ou série.</p>
+    <h3 class="field">Título Original:</h3>
+    <p>Para inserir o título original do filme ou série.</p>
+    <h3 class="field">Mídia:</h3>
+    <p>Mídia em que se encontra o filme ou série por exemplo: DVD, Blu-Ray. No moment dá instalação já criamos alguns
+        valores sendo eles DVD, Blu-ray, HD (para filmes e séries salvos em seu computador) e Web ( para filmes e séries
+        que se encontrem na internet).</p>
+    <h3 class="field">Ano:</h3>
+    <p>O ano do lançamento do filme ou série. Se você quiser pode inserir outro tipo de informação como o ano em que
+        você adquiriu a mídia, o importante e que você mantenha um padrão comum para tratar os campo.</p>
+    <h3 class="field">Categoria 1 e Categoria 2:</h3>
+    <p>Você pode inserir até duas categoria por filme sendo a categoria 1 considerada principal e categoria 2 como
+        secundaria. No momento dá instalação já inserimos no banco de dados diversos valores usados pelo IMDB.</p>
+    <h3 class="field">Keyword:</h3>
+    <p>Inserir palavras chaves que fazem referência a vários filmes por exemplo se você tem muitos filmes de uma mesma
+        franquia por exemplo "Duro de Matar"' ou filmes de personagens da "Marvel" você também pode inserir essas
+        palavras aqui isso ajudará você em futuras pesquisas.</p>
+    <h3 class="field">Poster:</h3>
+    <p>Esse campo normalmente e criado por uma pesquisa no IMDB onde salvamos um thumbnails do filme no diretório
+        poster.
+        Para inserir seus próprios thumbnails use uma imagem de 182x264px ou uma proporção similar coloque a no
+        diretório poster e coloque aqui o caminho absoluto.</p>
+    <h3 class="field">Web URL:</h3>
+    <p>A URL caso o filme ou série encontre-se na web.</p>
+    <h3 class="field">Resumo:</h3>
+    <p>Para colocar um breve resumo sobre o filme ou série.</p>
+    <h3 class="field"><a name="elenco">Tabela Elenco</a></h3>
+    <p>Aqui usamos uma tabela com as seguintes colunas “Ator/Atriz”, “Personagem” e “Star” onde cada linha contém um
+        Combobox para inserir um ator ou atriz e outro para seu personagem e um terceiro campo com uma caixa de seleção
+        para marcar se o ator ou atriz é um dos principais do filme ou série, as regras desses Combobox são as mesmas já
+        descritas no inicio.</p>
+    <p>Para adicionar novas linhas a serem preenchidas basta clicar no botão + ou pressionar as teclas CTRL+T.</p>
+    <h2>Campos somente para filmes</h2>
+    <h3 class="field">Box:</h3>
+    <p>Para inserir o título/nome de um box que contenha vários filmes.</p>
+    <h3 class="field">Diretor:</h3>
+    <p>Para inserir o diretor principal do filme.</p>
+    <p>Se você necessitar inserir outros diretores depois de salvar o filme vá no menu Editar→Filme Outros→Diretores
+        selecione o filme pelo título e insira ou edite os valores já existentes. Os diretores são classificados por
+        ordem de inserção e assim eles serão mostrados em uma pesquisa.</p>
+    <h3 class="field">Tempo:</h3>
+    <p>Para inserir o tempo de duração do filme.</p>
+    <h2>Campos somente para séries:</h2>
+    <h3 class="field">Criador:</h3>
+    <p>Para inserir o criador principal da série, sendo em tudo semelhante a o campo Diretor de filmes só que para os
+        criadores das séries.</p>
+    <h3 class="field">Temporadas:</h3>
+    <p>Serve para inserir o número de temporadas da série.</p>
+    <p>De preferência ao formato inicio:fim onde inicio é a primeira temporada e fim a última temporada exemplo 1:4, ou,
+        você pode inserir uma lista com os números de temporadas separados por virgulas exemplo: 1, 2, 3, 4.</p>
+    <h2>Botões e Teclas de Atalho Comuns</h2>
+    <ul class="after_h2, field">
+        <li><span>Botão Salvar</span> - Tecla de atalho: <span>Ctrl+S</span>
+            <br/><span class="special">Para salvar o filme ou série no banco de dados.</span></li>
+        <li><span>Botão Limpar</span> - Tecla de atalho: <span>Ctrl+L</span>
+            <br/><span class="special">Esvazia todos os campos para iniciar uma nova edição.</span></li>
+        <li><span>Botão Ajuda</span> - Tecla de atalho: <span>Ctrl+H</span>
+            <br/><span class="special">Mostra a ajuda para essa janela.</span></li>
+        <li><span>Botão Sair</span> - Tecla de atalho: <span>Ctrl+Q</span>
+            <br/><span class="special">Fecha a janela.</span></li>
+        <li><span>Botão +</span> - Tecla de atalho: <span>Ctrl+T</span>
+            <br/><span class="special">Para inserir uma linha na tabela Elenco.</span></li>
+    </ul>
+    <h2>Botões e Teclas de Atalho Especiais</h2>
+    <ul class="after_h2, field">
+        <li><span>Botão Pesquisar no IMDB</span> - Tecla de atalho: <span>CTRL+Alt+I</span>
+            <br/><span class="special">Serve para abrir uma janela contento um campo de texto para inserir uma URL do IMDB.</span>
+        </li>
+        <li class="field"><span>Popular Campos</span> - Tecla de atalho: <span>CTRL+Alt+I</span>
+            <br/><span class="special">Serve para preencher os campos da janela com os dados do IMDB.</span></li>
+    </ul>
+</div>
+</body>
+</html>

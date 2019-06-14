@@ -1,0 +1,46 @@
+
+QMenuBar {
+    color: white;
+    font-weight: normal;
+    font-size: 11pt;
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #7BB8E0, stop:0.3 #509ED0, stop:0.5 #2F89C2, stop:0.8 #509ED0, stop:1.0 #7BB8E0);
+}
+
+QMenu {
+    background: #EAF5F8;
+    color: #07575B;
+    font-weight: normal;
+    font-size: 11pt;
+    selection-color: white;
+    selection-background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #60BAF4, stop:0.3 #5CB8F3, stop:0.5 #509ED0, stop:0.8 #5181A0, stop:1.0 #497D9E);
+}
+
+QPushButton {
+    background-color: rgb(211, 215, 207);
+    alternate-background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(184,184,184, 255), stop:.5 rgba(211,211,211, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QToolTip {
+    min-width: 200px;
+    padding: 10px;
+    background-color: #FFFACD;
+    color:#000000;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+QTableView#table-episode::item {
+    border: 0px;
+    padding: 10px 5px;
+}
+
+QTableView#table-search::item {
+    border: 0px;
+    padding: 0 5px;
+}
+
+QHeaderView::section {
+    height: 30px;
+    background-color: #E6E6E6;
+    font-size:12pt;
+}
